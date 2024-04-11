@@ -22,7 +22,7 @@
     display: flex;
     padding: 2% 5%;
     color: white;
-    font-family: chillax bold;
+    font-family: chillax medium;
   }
   .links{
     color: white;
@@ -61,7 +61,7 @@
 
   .herotext{
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    
   }
   .blue{
     margin-top:50px;
@@ -76,10 +76,10 @@
   }
 .portfolio{padding: 50px;}
 
-.topic{  font-family: chillax bold;}
+.topic{  font-family: chillax bold; }
  .ph2{
   color: #2c3e50;
-  font-family: chillax bold;
+  font-family: chillax medium;
   
   text-align: center;
   
@@ -149,14 +149,14 @@ button:hover {color: #2c3e50;}
   text-align: center;
 }
 .ah2{
-  font-family: chillax bold;
+  font-family: chillax medium;
   margin: 1px 0px 0px 0px; }
 .contactus{
   text-align: center;
   color: #2c3e50;
 padding: 50px;
 }
-.contactme{  font-family: chillax bold;}
+.contactme{  font-family: chillax medium;}
 .contactus input{font-family: Arial, Helvetica, sans-serif;
                padding: 20px;
               padding-left: 0px;
@@ -203,7 +203,8 @@ padding-right: 25px;}
 .mass{height: 50px;
 width: 50px;
 border-radius: 60px;
-border: solid white;}
+border: solid white;
+margin: 3px;}
 .icons .mass img{height: 50px; width: 50px;}
 em{color: #1abc9c; font-family: chillax light; cursor: pointer;}
 .copyright{color: white;
