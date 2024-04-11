@@ -74,16 +74,13 @@
     font-size: 15px;
     font-family: chillax light;
   }
+.portfolio{padding: 50px;}
 
- .portifolio{
-  text-align: center;
- }
 .topic{  font-family: chillax bold;}
  .ph2{
-  margin-top: 40px;
   color: #2c3e50;
   font-family: chillax bold;
-  margin: 35px 0px 0px 0px;
+  
   text-align: center;
   
  }
@@ -92,30 +89,42 @@
  }
  
  .bblue img{
- margin-top: 20px;
  width: 200px;
+ margin-bottom: 20px;
  
  }
 
- .pselects{
-  column-count: 3;
+ .pselects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%; 
   margin-left: auto;
   margin-right: auto;
   width: 74%;
- }
- .pselects img{
-    max-width: 300px;
-    border-radius: 10px; 
-    margin-top: 20px;
- }
+  
+}
+
+.pselects img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .pselects {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 4%;
+  }
+}
+
  .about {
   background-color: #1abc9c;
-  margin-top: 1cmx;
-  height: 70vh;
-  margin-top: 50px;
+ 
+padding: 50px;
   text-align: center;
   color: white;
-  padding-top: 70px;
+  
   font-family: chillax light;
 }
 .paragraphs{
@@ -126,8 +135,8 @@
   max-width: 600px;
 }
 .paragraphs p{text-align: left;}
-button{padding: 20px;
-       margin-top: 30px;
+button{padding: 10px;
+       margin-top: 20px;
        background-color: #1abc9c;
        border: solid;
        color: white;
@@ -139,17 +148,17 @@ button:hover {color: #2c3e50;}
   .ah2, .ablue {
   text-align: center;
 }
-.ah2{ margin-bottom: 20px;
-  font-family: chillax bold; }
+.ah2{
+  font-family: chillax bold;
+  margin: 1px 0px 0px 0px; }
 .contactus{
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
-  height: 100vh;
+padding: 50px;
 }
 .contactme{  font-family: chillax bold;}
 .contactus input{font-family: Arial, Helvetica, sans-serif;
-                margin-top: 20px;
+               padding: 20px;
               padding-left: 0px;
             border-top: none;
           border-left: none;
@@ -175,15 +184,30 @@ outline: opx;}
 background-color: #2c3e50;
 column-count: 3;
 text-align: center;
-padding-top: 60px;}
-.footer img{max-width: 40px;
-border: 1px solid;
+padding-top: 50px;
+display: flex;
+justify-content: space-evenly;
+padding-bottom: 30px;
+
+padding: 50px;}
+.footer img{width: 60px;
 padding: 10px;
-border-radius: 100%;}
-.icons{display: flex; justify-content: center; text-align: center;}
+padding-right: 25px;}
+
+  .icons{width: 35px; height: 35px;
+    border-radius: 100%;
+    border: 1px solid white; margin: 2px;
+  }
+  .pics{display: flex; justify-content: center; padding-top: 10px;}
+  .icons img{ padding: 5px 3px 3px }
+.mass{height: 50px;
+width: 50px;
+border-radius: 60px;
+border: solid white;}
+.icons .mass img{height: 50px; width: 50px;}
 em{color: #1abc9c; font-family: chillax light; cursor: pointer;}
 .copyright{color: white;
 text-align: center;
 background-color: #1a252f;
-height: 10vh;
-padding-top: 30px;}
+
+padding: 20px;}
